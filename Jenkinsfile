@@ -11,7 +11,7 @@ pipeline {
         METRIC              = "VirtualProcessorCore"
         USE                 = "NonProduction"
         VERSION             = "9.4.0.5-r1"
-        AVAILABILITY        = "Native HA"
+        AVAILABILITY        = "NativeHA"
     }
     stages {
         stage('Pre Deploy') {
