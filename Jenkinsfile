@@ -10,7 +10,7 @@ pipeline {
         LICENSE             = "L-JTPV-KYG8TF"
         METRIC              = "VirtualProcessorCore"
         USE                 = "NonProduction"
-        VERSION             = "9.4.0.5-r2"
+        VERSION             = "9.4.0.5-r1"
         AVAILABILITY        = "SingleInstance"
     }
     stages {
