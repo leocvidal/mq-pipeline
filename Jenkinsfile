@@ -2,11 +2,11 @@ pipeline {
     agent any
     environment {
         IBM_ENTITLEMENT_KEY = credentials('ibm_entitlement_key')
-        RELEASE_NAME        = "qm2"        
-        NAMESPACE           = "mq2"
+        RELEASE_NAME        = "qm1"        
+        NAMESPACE           = "mq1"
         STORAGE_CLASS       = "ocs-storagecluster-ceph-rbd"
-        QMGR_NAME           = "QM2"
-        CHANNEL_NAME        = "QM2CHL"
+        QMGR_NAME           = "QM1"
+        CHANNEL_NAME        = "QM1CHL"
         LICENSE             = "L-JTPV-KYG8TF"
         METRIC              = "VirtualProcessorCore"
         USE                 = "NonProduction"
