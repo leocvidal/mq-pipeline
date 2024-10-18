@@ -2,16 +2,16 @@ pipeline {
     agent any
     environment {
         IBM_ENTITLEMENT_KEY = credentials('ibm_entitlement_key')
-        RELEASE_NAME        = "qm3"        
-        NAMESPACE           = "mq3"
+        RELEASE_NAME        = "qm2"        
+        NAMESPACE           = "mq2"
         STORAGE_CLASS       = "ocs-storagecluster-ceph-rbd"
         QMGR_NAME           = "QM3"
-        CHANNEL_NAME        = "QM3CHL"
+        CHANNEL_NAME        = "QM2CHL"
         LICENSE             = "L-JTPV-KYG8TF"
         METRIC              = "VirtualProcessorCore"
         USE                 = "NonProduction"
         VERSION             = "9.4.0.5-r1"
-        AVAILABILITY        = "NativeHA"
+        AVAILABILITY        = "SingleInstance"
     }
     stages {
         stage('Pre Deploy') {

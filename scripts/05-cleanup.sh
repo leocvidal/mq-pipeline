@@ -14,16 +14,16 @@ oc delete pvc $pvc2name -n ${2}
 export pvc1name="data-${1}-ibm-mq-1"
 oc delete pvc $pvc1name -n ${2}
 
-export pvc2name="${1}-ibm-mq-persisted-data-0"
+export pvc2name="persisted-data-${1}-ibm-mq-0"
 oc delete pvc $pvc2name -n ${2}
 
 export pvc1name="data-${1}-ibm-mq-2"
 oc delete pvc $pvc1name -n ${2}
 
-export pvc2name="${1}-ibm-mq-persisted-data-1"
+export pvc2name="persisted-data-${1}-ibm-mq-1"
 oc delete pvc $pvc2name -n ${2}
 
-export pvc2name="${1}-ibm-mq-persisted-data-2"
+export pvc2name="persisted-data-${1}-ibm-mq-2"
 oc delete pvc $pvc2name -n ${2}
 
 oc delete project ${2}
