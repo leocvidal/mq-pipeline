@@ -1,3 +1,3 @@
 export MQCCDTURL=ccdt.json
 export MQSSLKEYR=../certs/mqclient
-amqsputc APPQ QM1
+amqsputc APPQ QM3
