@@ -5,7 +5,7 @@ pipeline {
         RELEASE_NAME        = "qm2"        
         NAMESPACE           = "mq2"
         STORAGE_CLASS       = "ocs-storagecluster-ceph-rbd"
-        QMGR_NAME           = "QM3"
+        QMGR_NAME           = "QM2"
         CHANNEL_NAME        = "QM2CHL"
         LICENSE             = "L-JTPV-KYG8TF"
         METRIC              = "VirtualProcessorCore"
