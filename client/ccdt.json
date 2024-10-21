@@ -1,15 +1,15 @@
 {
   "channel": [
     {
-      "name": "QM3CHL",
+      "name": "QM1CHL",
       "clientConnection": {
         "connection": [
           {
-            "host": "qm3-ibm-mq-qm-mq.apps.670dd5b930a0300954903814.ocp.techzone.ibm.com",
+            "host": "qm1-ibm-mq-qm-mq.apps.670dd5b930a0300954903814.ocp.techzone.ibm.com",
             "port": 443
           }
         ],
-        "queueManager": "QM3"
+        "queueManager": "QM1"
       },
       "transmissionSecurity": {
         "cipherSpecification": "ANY_TLS12_OR_HIGHER"
