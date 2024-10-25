@@ -32,7 +32,7 @@ pipeline {
             //Add channel name
              // Using curl GET request
             sh '''
-                curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+                curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
             '''
             //slackSend channel: 'app_developers',
             //message: "Find Status of Pipeline:- ${currentBuild.currentResult} ${env.JOB_NAME} ${env.BUILD_NUMBER} ${BUILD_URL}"
