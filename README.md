@@ -1,2 +1,2 @@
 # mq-pipeline
-Deploy MQ on OCP using MQ operator.
+Deploy MQ on OCP using MQ operator
