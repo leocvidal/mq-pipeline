@@ -10,13 +10,13 @@ pipeline {
         LICENSE             = "L-JTPV-KYG8TF"
         METRIC              = "VirtualProcessorCore"
         USE                 = "NonProduction"
-        VERSION             = "9.4.0.5-r2"
+        VERSION             = "9.4.0.5-r1"
         AVAILABILITY        = "NativeHA"
     }
     stages {
         stage('Pre Deploy') {
             steps {
-                echo 'Pre-Deploy ~ setup configuration before deploy'
+                echo 'Pre-Deploy ~ setup configuration before deploy '
                 sh('./scripts/01-pre-deploy.sh ${IBM_ENTITLEMENT_KEY} ${RELEASE_NAME} ${NAMESPACE}')
             }
         }
